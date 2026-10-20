@@ -1,0 +1,51 @@
+## Interface: 120005
+## Title: DiceSim
+## Notes: DnD-focused dice interface for World of Warcraft.
+## Author: DiceSim
+## Version: 0.1.0
+## IconTexture: Interface\AddOns\DiceSim\UI\BLPs\DiceSimLogo.blp
+## SavedVariables: DiceSimDB
+
+Core\Init.lua
+Core\Constants.lua
+Core\Permissions.lua
+Core\Sessions.lua
+Core\BuffsDebuffs.lua
+Core\DiceSystems.lua
+Core\Utils.lua
+Core\SlashCommands.lua
+
+Data\EnemyPortraits.lua
+
+UI\Theme.lua
+UI\UIFactory.lua
+UI\Windowing.lua
+UI\MainFrame.lua
+UI\Minimap.lua
+
+Canvas\Canvas.lua
+
+Character\Metrics.lua
+Character\SheetMath.lua
+Character\CharacterTabs.lua
+
+Dice\DiceRolls.lua
+Dice\Initiative.lua
+
+Panels\AddPanel.lua
+Panels\BuffDebuffPanel.lua
+Panels\DicePanel.lua
+Panels\DMPanel.lua
+Panels\RoundsPanel.lua
+Panels\EventLogPanel.lua
+Panels\SessionPanel.lua
+Panels\TutorialPanel.lua
+Panels\HomePanel.lua
+Panels\TutorialTour.lua
+Panels\IconPickerPanel.lua
+Panels\PortraitPickerPanel.lua
+Panels\PortraitRingPickerPanel.lua
+Panels\SheetPanel.lua
+Panels\SettingsPanel.lua
+
+Core\Events.lua
